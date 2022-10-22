@@ -1,7 +1,6 @@
 # MemeCreator
 SwiftTutorials -  #1 JSON Parsing Example
 
-
 `guard let url = URL(string: "https://meme-api.herokuapp.com/gimme/2") else {return}
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
         guard let dataResponse = data,
@@ -39,5 +38,4 @@ SwiftTutorials -  #1 JSON Parsing Example
                 print("Error", parsingError)
            }
         }
-        task.resume()
-        `
+        task.resume()`
