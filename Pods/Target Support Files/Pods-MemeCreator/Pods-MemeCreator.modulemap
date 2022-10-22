@@ -1,0 +1,6 @@
+framework module Pods_MemeCreator {
+  umbrella header "Pods-MemeCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}

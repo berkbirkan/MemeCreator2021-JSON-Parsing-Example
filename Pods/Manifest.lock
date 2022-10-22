@@ -1,0 +1,22 @@
+PODS:
+  - MarqueeLabel (4.0.5)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+
+DEPENDENCIES:
+  - MarqueeLabel
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - MarqueeLabel
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+
+PODFILE CHECKSUM: 0ae09502b227a20249c6b47af4fd9c3be18fd3fd
+
+COCOAPODS: 1.10.1
