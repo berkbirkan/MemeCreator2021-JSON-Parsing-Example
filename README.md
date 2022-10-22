@@ -1,8 +1,7 @@
 # MemeCreator
 SwiftTutorials -  #1 JSON Parsing Example
 
-`@IBAction func makememe(_ sender: Any) {
-        guard let url = URL(string: "https://meme-api.herokuapp.com/gimme/2") else {return}
+guard let url = URL(string: "https://meme-api.herokuapp.com/gimme/2") else {return}
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
         guard let dataResponse = data,
                   error == nil else {
@@ -41,4 +40,3 @@ SwiftTutorials -  #1 JSON Parsing Example
         }
         task.resume()
         
-    }`
