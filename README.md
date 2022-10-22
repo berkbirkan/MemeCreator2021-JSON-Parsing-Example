@@ -1,6 +1,8 @@
 # MemeCreator
 SwiftTutorials -  #1 JSON Parsing Example
 
+![alt text](https://github.com/berkbirkan/MemeCreator2021-JSON-Parsing-Example/blob/main/Screenshot%20at%20Oct%2022%2018-19-37.png "JSON Parsing in Swift Example")
+
 
 ## Example JSON Structure
 
